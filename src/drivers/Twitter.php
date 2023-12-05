@@ -43,7 +43,7 @@ class Twitter extends AbstractDriver
      */
     protected function buildLink()
     {
-        $link = 'http://twitter.com/share?url={url}&text={description}';
+        $link = 'http://twitter.com/intent/tweet?url={url}&text={description}';
 
         if ($this->account) {
             $this->addUrlParam($link, 'via', '{account}');
