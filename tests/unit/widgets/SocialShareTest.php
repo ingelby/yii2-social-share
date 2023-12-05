@@ -27,7 +27,7 @@ class SocialShareTest extends Unit
 
     private $vk = 'http://vk.com/share.php?url=test+url&amp;title=test+title&amp;description=test+description&amp;image=test+image+url';
     private $facebook = 'http://www.facebook.com/sharer.php?u=test+url';
-    private $twitter = 'http://twitter.com/share?url=test+url&amp;text=test+description';
+    private $twitter = 'http://twitter.com/intent/tweet?url=test+url&amp;text=test+description';
     private $googlePlus = 'https://plusone.google.com/_/+1/confirm?hl=en&amp;url=test+url';
     private $linkedIn = 'https://www.linkedin.com/shareArticle?mini=true&amp;url=test+url&amp;title=test+title&amp;summary=test+description';
     private $pinterest = 'https://www.pinterest.com/pin/create/link/?url=test+url&amp;media=test+image+url&amp;description=test+description';

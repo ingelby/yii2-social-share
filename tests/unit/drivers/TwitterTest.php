@@ -30,7 +30,7 @@ class TwitterTest extends Unit
 
         $driver = new Twitter(\compact('account', 'url', 'description'));
 
-        $expected = 'http://twitter.com/share'
+        $expected = 'http://twitter.com/intent/tweet'
             . '?url=' . AbstractDriver::encodeData($url)
             . '&text=' . AbstractDriver::encodeData($description)
             . '&via=' . AbstractDriver::encodeData($account);
